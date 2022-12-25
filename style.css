@@ -1,0 +1,56 @@
+
+/* hero main text */
+h2{
+    font-size:48px;
+    font-style: extra bold;
+    color: #F9FAF8;
+}
+/* header logo text */
+h4{
+    font-size: 24px;
+    color: #E5E7EB;
+}
+/* hero secondary text, header link text*/
+p{
+    font-size: 18px;
+    color:#E5E7EB;
+}
+
+button {
+    border-radius: 7px;
+    padding: 5px;
+    width: 15%;
+    border-color: white;
+    background-color: #3882F6;
+    color:white;   
+}
+
+#center{
+    margin: 0 auto;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: auto;
+    gap: 15px;
+    height:fit-content;
+    padding-left: 25px;
+    padding-right: 25px;
+ }
+
+ .flex-container .logo {
+    flex: 1 1 0%;
+}
+
+#light-blue{
+    border-radius: 7px;
+    background-color: #3882F6;
+    padding: 10px;
+}
+
+ #dark-blue {
+    background-color: #1F2937;
+ }
+
