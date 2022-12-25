@@ -3,23 +3,22 @@
 h2{
     font-size:48px;
     font-style: extra bold;
-    color: #F9FAF8;
 }
 /* header logo text */
 h4{
     font-size: 24px;
-    color: #E5E7EB;
 }
 /* hero secondary text, header link text*/
 p{
     font-size: 18px;
-    color:#E5E7EB;
 }
 
 button {
+    display: block;
+    text-align: center;
     border-radius: 7px;
     padding: 5px;
-    width: 15%;
+    width: 110px;
     border-color: white;
     background-color: #3882F6;
     color:white;   
@@ -36,6 +35,7 @@ button {
     flex-basis: auto;
     gap: 15px;
     height:fit-content;
+    width: fit-content;
     padding-left: 25px;
     padding-right: 25px;
  }
@@ -49,7 +49,11 @@ button {
     background-color: #3882F6;
     padding: 10px;
 }
-
+#quote{
+    background-color: gray;
+    color:black;
+    text-align:left;
+}
  #dark-blue {
     background-color: #1F2937;
  }
