@@ -44,24 +44,23 @@ button {
     background-color: #3882F6;
     color:white;   
 }
-
-#center{
-    margin: 0 auto;
-}
-
 .flex-container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-basis: auto;
-    gap: 15px;
+    gap: 20px;
     height:fit-content;
     width: fit-content;
- }
-
- .flex-container .logo {
-    flex: 1 1 0%;
 }
+.flex-container .logo {
+    flex: 2;
+}
+
+#center{
+    margin: 0 auto;
+}
+
 
 #header{
 
